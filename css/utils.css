@@ -1,0 +1,105 @@
+.mg-b-5{
+    margin-bottom: 5px;
+}
+
+.mg-b-10{
+    margin-bottom: 10px;
+}
+
+.mg-b-15{
+    margin-bottom: 15px;
+}
+
+.mg-b-20{
+    margin-bottom: 20px;
+}
+
+.mg-b-25{
+    margin-bottom: 25px;
+}
+.mg-t-5{
+    margin-top: 5px;
+}
+.mg-t-10{
+    margin-top: 10px;
+}
+
+.mg-t-25{
+    margin-top: 25px;
+}
+.mg-rl-5{
+    margin: 0 5px;
+}
+.mg-rl-10{
+    margin: 0 10px;
+}
+
+.mg-t-b-20{
+    margin: 20px 0;
+}
+
+.width-30-100{
+    width: 30%;
+}
+
+.width-40-100{
+    width: 40%;
+}
+.width-50-100{
+    width: 50%;
+}
+
+.width-60-100{
+    width: 60%;
+}
+.width-70-100{
+    width: 70%;
+}
+
+.uppercase{
+    text-transform: uppercase;
+}
+
+.capitalize{
+    text-transform: capitalize;
+}
+
+.float-left{
+    float: left;
+}
+
+.float-right{
+    float: right;
+}
+
+.bg-gray{
+    background: #f9f9f9;
+}
+.pointer{
+    cursor: pointer;
+}
+.d-inline-block{
+    display: inline-block;
+}
+
+.d-block{
+    display:block;
+}
+.d-inline{
+    display: inline;
+}
+.align-right{
+    text-align: right;
+}
+.align-center{
+    text-align: center;
+}
+.align-left{
+    text-align: left;
+}
+.line-h-1-5{
+   line-height: 1.5;
+}
+.line-h-1-6{
+    line-height: 1.6;
+ }

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Products</title>
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500&display=swap" rel="stylesheet">
+
+    <!-- files css -->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style-rtl.css">
+    <link rel="stylesheet" href="css/createProducts.css">
+    <link rel="stylesheet" href="css/utils.css">
+
+</head>
+<body>
+   
+    <!-- Header Section  -->
+    <header class="header">
+        <div class="container">
+           <div class="header-content">
+            <a href="index.html" class="brand capitalize">shoping cart</a>
+            <nav class="navbar capitalize">
+                <ul class="links">
+                    <li><a href="sign-up.html">sign up</a></li>
+                    <li><a href="login.html">login</a></li>
+                    <li class="ar_lang capitalize pointer">ar</li>
+                    <li class="en_lang capitalize pointer">en</li>
+                </ul> <!-- ./links -->
+                <ul class="user-info">
+                    <li class="user-info-name">user</li>
+                    <li class="shopping-cart">
+                        <i class="fa fa-shopping-cart fa-lg" aria-hidden="true"></i>
+                        <span class="badge"></span>
+                        <div class="carts-products">
+                            <div></div>
+                            <a href="carts.html">view all products</a>
+                        </div> <!-- ./carts-products -->
+                    </li>
+                    <li class="favorites"><a href="favorites.html" style="color: white;"><i class="fa fa-heart-o fa-lg"></i> wish list</a></li>
+                    <li class="myProducts"><a href="myProducts.html" style="color: white;">my products</a></li>
+                    <li class="myProducts"><a href="myViews.html" style="color: white;">my views</a></li>
+                    <li class="ar_lang capitalize pointer">ar</li>
+                    <li class="en_lang capitalize pointer">en</li>
+                    <li class="logout" title="Logout"><i class="fa fa-sign-out fa-lg" aria-hidden="true"></i></li>
+                </ul> <!-- ./user-info -->
+            </nav> <!-- ./navbar -->
+           </div> <!-- ./header-content -->
+        </div> <!-- ./container -->
+    </header> <!-- ./header -->
+
+    <!-- Home Section -->
+    <section class="createProducts pd-y">
+         <div class="container">
+            <div class="create-product-content">
+                <h2 class="create-product-title capitalize">create product</h2>
+                <form class="create-product-form">
+                    <input type="text" name="prodcutName" id="productName" placeholder="Product Name">
+                    <input type="text" name="productDesc" id="productDesc" placeholder="Product Desc">
+                    <input type="number" name="productQuntaty" id="productQuntaty" placeholder="Quntaty">
+                    <select name="productSize" id="productSize" class="productSize">
+                        <option value="" hidden>Select Size </option>
+                        <option value="small">small</option>
+                        <option value="medium">medium</option>
+                        <option value="large">large</option>
+                    </select>
+                    <label for="urlImage" class="imgProduct capitalize">image product : </label>
+                    <input type="file" name="urlImage" id="urlImage">
+                    <input type="submit" value="Create Product" id="btnCreateProduct">
+                </form> <!-- ./createProductItem -->
+            </div> <!-- ./create-product-content -->
+         </div> <!-- ./container -->
+    </section> <!-- ./createProducts -->
+
+    <!-- files javaScript -->
+    <script src="js/checkUser.js"></script>
+    <script src="js/data.js"></script>
+    <script src="js/cartsMenu.js"></script>
+    <script src="js/langDir.js"></script>
+    <script src="js/createProducts.js"></script>
+</body>
+</html>

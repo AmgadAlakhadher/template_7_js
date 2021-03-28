@@ -1,0 +1,9 @@
+/* to change the site from ltr to rtl*/
+
+[dir="rtl"] .products{
+    float: right;
+}
+
+[dir="rtl"] .filter{
+    float: left;
+}

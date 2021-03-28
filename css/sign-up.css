@@ -1,0 +1,51 @@
+/* sign-up  */
+.links li:first-child a{
+    background: #ced4da;
+    color: var(--mainColor);
+}
+
+/* sing up section */
+
+.sign-up-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: var(--mainColor);
+    padding: 20px 40px;
+    border-radius: 5px;
+    width: 60%;
+    text-align: center;
+}
+.sign-up-title{
+    color: var(--scondaryColor);
+    font-size: 55px;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+}
+.sign-up-form input{
+    width: 100%;
+    padding:  10px; 
+    outline: 0; 
+    margin: 5px 0;
+    border: solid 1px #ddd; 
+}
+.sign-up-form input:last-child{
+    font-size: 20px;
+    border-radius: 5px;
+    background: #06d6a0;
+    color: var(--whiteColor);
+    font-weight: bold;
+    border: 0;
+    cursor: pointer;
+    transition: background .5s;
+}
+.sign-up-form input:last-child:hover{
+    transition: opacity .5s;
+}
+p.account{
+    color: var(--whiteColor);
+}
+p.account a{
+    color: var(--scondaryColor);
+}

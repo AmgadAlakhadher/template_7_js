@@ -1,0 +1,12 @@
+.user-avatar-img{
+    width:100%;
+    margin: 20px 0 ; 
+}
+.user-avatar-img img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+.profile-user-info .user-nickName{
+    
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-up</title>
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500&display=swap" rel="stylesheet">
+
+    <!-- files css -->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/sign-up.css">
+    <link rel="stylesheet" href="css/style-rtl.css">
+    <link rel="stylesheet" href="css/utils.css">
+
+</head>
+<body>
+   
+    <!-- Header Section  -->
+    <header class="header">
+        <div class="container">
+           <div class="header-content">
+            <a href="index.html" class="brand capitalize">shoping cart</a>
+            <nav class="navbar capitalize">
+                <ul class="links">
+                    <li><a href="sign-up.html">sign up</a></li>
+                    <li><a href="login.html">login</a></li>
+                    <li class="ar_lang capitalize pointer">ar</li>
+                    <li class="en_lang capitalize pointer">en</li>
+                </ul> <!-- ./links -->
+            </nav> <!-- ./navbar -->
+           </div> <!-- ./header-content -->
+        </div> <!-- ./container -->
+    </header> <!-- ./header -->
+    
+    <!-- Section Form -->
+    <section class="sign-up">
+      <div class="container">
+         <div class="sign-up-content">
+            <h2 class="sign-up-title capitalize">sign up</h2>
+            <form action="#" novalidate class="sign-up-form">
+                <input type="text" name="user-name" id="user-name" placeholder="Name">
+                <input type="text" name="user-email" id="user-email" placeholder="Email">
+                <input type="password" name="user-password" id="user-password" placeholder="Password">
+                <input type="submit" value="sign up" class="sign-up-btn opacityHover uppercase" id="btn-sign-up">
+            </form>
+            <p class="account">Have Account <a href="login.html">Login</a></p>
+         </div> <!-- ./sign-up-content -->
+      </div> <!-- ./container -->
+    </section> <!-- ./sign-up -->
+
+
+    <!-- files javaScript -->
+    <script src="js/langDir.js"></script>
+    <script src="js/sign-up.js"></script>
+</body>
+</html>

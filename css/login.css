@@ -1,0 +1,52 @@
+/* sign-up  */
+.links li:last-child a{
+    background: #ced4da;
+    color: var(--mainColor);
+}
+
+/* sing up section */
+
+.login-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: var(--mainColor);
+    padding: 20px 40px;
+    border-radius: 5px;
+    width:60%;
+    text-align: center;
+    
+}
+.login-title{
+    color: var(--scondaryColor);
+    font-size: 55px;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+}
+.login-form input{
+    width: 100%;
+    padding:  10px; 
+    border: solid 1px #ddd; 
+    margin: 5px 0;
+    outline: 0; 
+}
+.login-form input:last-child{
+    font-size: 20px;
+    border-radius: 5px;
+    background: #06d6a0;
+    color: var(--whiteColor);
+    font-weight: bold;
+    border: 0;
+    cursor: pointer;
+    transition: background .5s;
+}
+.login-form input:last-child:hover{
+    transition: opacity .5s;
+}
+p.account,.forgot-password{
+    color: var(--whiteColor);
+}
+p.account a, .forgot-password a{
+    color: var(--scondaryColor);
+}

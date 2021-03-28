@@ -1,0 +1,52 @@
+/* Create Products */
+
+
+
+.create-product-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: var(--mainColor);
+    padding: 20px 40px;
+    border-radius: 5px;
+    width: 60%;
+    color: var(--whiteColor);
+}
+.create-product-title{
+    color: var(--scondaryColor);
+    font-size: 55px;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+.create-product-form input,.update-product-form input{
+    width: 100%;
+    padding:  10px; 
+    outline: 0; 
+    margin: 5px 0;
+    border: solid 1px #ddd; 
+}
+.create-product-form input:last-child,.update-product-form input:last-child{
+    font-size: 20px;
+    border-radius: 5px;
+    background: #06d6a0;
+    color: var(--whiteColor);
+    text-shadow: 2px 2px black , -2px -2px black,2px -2px black, -2px 2px black,3px 0 black;
+    font-weight: bold;
+    border: 0;
+    cursor: pointer;
+    transition: background .5s;
+}
+.create-product-form input:last-child:hover,.create-product-form input:last-child:hover{
+    transition: opacity .5s;
+}
+.productSize, #urlImage{
+    width: 30%;
+    cursor: pointer;
+}
+.imgProduct{
+    margin-left: 90px;
+    font-size: 25px;
+}
+

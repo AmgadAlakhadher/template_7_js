@@ -1,0 +1,8 @@
+.details-item img{
+    width: 100%;
+    margin: 10px 0;
+    border: solid 2px var(--mainColor);
+    padding: 5px;
+    height: 500px;
+    object-fit: cover;
+}
